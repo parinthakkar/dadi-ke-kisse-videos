@@ -77,9 +77,18 @@ def playlist_id(yt, title, cache):
     return cache[title]
 
 
+def thumb_retries():
+    out = []
+    for m, video, cover in all_metas():
+        meta = json.load(open(m, encoding="utf-8"))
+        if meta.get("youtube_id") and any("thumbnail" in n for n in meta.get("notes", [])) and os.path.exists(cover):
+            out.append((m, cover, meta))
+    return out
+
+
 def main():
-    items = pending()
-    if not items:
+    items = pending(); thumbs = thumb_retries()
+    if not items and not thumbs:
         print("Nothing to upload."); return
     from googleapiclient.discovery import build
     from googleapiclient.http import MediaFileUpload
@@ -90,7 +99,16 @@ def main():
     if want not in mine:   # safety: never upload to the wrong channel (e.g. That's The Trick)
         print(f"::error::The Google login is for channel {mine}, not Dadi Ke Kisse ({want}). Redo README step 4 and pick the Dadi Ke Kisse channel.")
         sys.exit(1)
-    now = dt.datetime.now(dt.timezone.utc); bump = 0; done = 0; cache = {}; failed = []
+    now = dt.datetime.now(dt.timezone.utc); bump = 0; done = 0; cache = {}; failed = []; limited = False
+    for path, cover, meta in thumbs:   # covers that could not be set before (e.g. channel not phone-verified yet)
+        try:
+            yt.thumbnails().set(videoId=meta["youtube_id"], media_body=MediaFileUpload(cover, mimetype="image/png")).execute()
+            meta["notes"] = [n for n in meta.get("notes", []) if "thumbnail" not in n]
+            json.dump(meta, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+            print(f"thumbnail set for {meta['slug']}")
+        except HttpError as e:
+            print(f"::warning::{meta['slug']}: thumbnail still not allowed ({e.resp.status}); verify the channel's phone number in YouTube Studio")
+            break
     for path, video, cover, meta in items[:MAX_PER_RUN]:
         slug = meta["slug"]
         when = dt.datetime.fromisoformat(meta["publish_at"]).astimezone(dt.timezone.utc) if meta.get("publish_at") else now
@@ -109,9 +127,12 @@ def main():
                 _, res = req.next_chunk()
             vid = res["id"]
         except HttpError as e:
-            print(f"::error::{slug}: upload failed: {e}"); failed.append(slug)
-            if e.resp.status in (403, 429) and b"quota" in (e.content or b"").lower():
+            body_txt = (e.content or b"").lower()
+            if b"uploadlimitexceeded" in body_txt or b"quotaexceeded" in body_txt:
+                limited = True
+                print(f"::warning::YouTube's daily upload limit for this channel is reached; {slug} and the rest wait for the next run (every 6 hours).")
                 break
+            print(f"::error::{slug}: upload failed: {e}"); failed.append(slug)
             continue
         print(f"uploaded {slug}: https://youtube.com/shorts/{vid}  (goes public {when.isoformat()})")
         notes = []
@@ -142,7 +163,8 @@ def main():
         f.write("# Dadi Ke Kisse uploads\n\nUpdated automatically by the upload workflow.\n\n| Goes public (UTC) | Slug | Character | YouTube | Title |\n|---|---|---|---|---|\n")
         for r in sorted(rows):
             f.write(f"| {r[0]} | {r[1]} | {r[2]} | {r[3]} | {r[4].replace('|', '/')} |\n")
-    print(f"done: {done} uploaded, {len(failed)} failed {failed}")
+    waiting = len(pending())
+    print(f"done: {done} uploaded, {len(failed)} failed {failed}, {waiting} still waiting" + (" (daily upload limit reached)" if limited else ""))
     if failed:
         sys.exit(1)
 
