@@ -14,7 +14,7 @@ Needs the repo secrets YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN (see REA
 import datetime as dt, glob, json, os, sys, time
 
 MAX_PER_RUN = int(os.environ.get("MAX_PER_RUN", "20"))
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.environ.get("GITHUB_WORKSPACE") or os.getcwd()
 
 
 def creds():
@@ -30,16 +30,33 @@ def creds():
     return c
 
 
+def all_metas():
+    """Both layouts: shorts/<slug>/meta.json + video.mp4 + cover.png, or flat <slug>.json + <slug>.mp4 + <slug>.png
+    (in the repo root or in shorts/)."""
+    out = []
+    for m in glob.glob(os.path.join(ROOT, "shorts", "*", "meta.json")):
+        d = os.path.dirname(m); out.append((m, os.path.join(d, "video.mp4"), os.path.join(d, "cover.png")))
+    for m in glob.glob(os.path.join(ROOT, "*.json")) + glob.glob(os.path.join(ROOT, "shorts", "*.json")):
+        base = os.path.basename(m)[:-5]
+        try:
+            meta = json.load(open(m, encoding="utf-8"))
+        except Exception:
+            continue
+        if isinstance(meta, dict) and meta.get("slug") == base and "title" in meta:
+            d = os.path.dirname(m); out.append((m, os.path.join(d, base + ".mp4"), os.path.join(d, base + ".png")))
+    return out
+
+
 def pending():
     out = []
-    for m in sorted(glob.glob(os.path.join(ROOT, "shorts", "*", "meta.json"))):
+    for m, video, cover in all_metas():
         meta = json.load(open(m, encoding="utf-8"))
         if meta.get("youtube_id"):
             continue
-        if not os.path.exists(os.path.join(os.path.dirname(m), "video.mp4")):
-            print(f"::warning::{meta.get('slug')}: no video.mp4, skipped")
+        if not os.path.exists(video):
+            print(f"::warning::{meta.get('slug')}: no video file ({os.path.basename(video)}), skipped")
             continue
-        out.append((meta.get("publish_at", ""), m, meta))
+        out.append((meta.get("publish_at", ""), m, video, cover, meta))
     return [x[1:] for x in sorted(out, key=lambda x: x[0])]
 
 
@@ -74,8 +91,8 @@ def main():
         print(f"::error::The Google login is for channel {mine}, not Dadi Ke Kisse ({want}). Redo README step 4 and pick the Dadi Ke Kisse channel.")
         sys.exit(1)
     now = dt.datetime.now(dt.timezone.utc); bump = 0; done = 0; cache = {}; failed = []
-    for path, meta in items[:MAX_PER_RUN]:
-        d = os.path.dirname(path); slug = meta["slug"]
+    for path, video, cover, meta in items[:MAX_PER_RUN]:
+        slug = meta["slug"]
         when = dt.datetime.fromisoformat(meta["publish_at"]).astimezone(dt.timezone.utc) if meta.get("publish_at") else now
         if when < now + dt.timedelta(minutes=15):          # slot already passed: publish a few minutes from now, spaced out
             bump += 1; when = now + dt.timedelta(minutes=15 + 20 * (bump - 1))
@@ -85,7 +102,7 @@ def main():
                             "categoryId": str(meta.get("category_id", "1")), "defaultLanguage": meta.get("language", "hi"),
                             "defaultAudioLanguage": meta.get("language", "hi")}, "status": status}
         try:
-            media = MediaFileUpload(os.path.join(d, "video.mp4"), mimetype="video/mp4", chunksize=8 * 1024 * 1024, resumable=True)
+            media = MediaFileUpload(video, mimetype="video/mp4", chunksize=8 * 1024 * 1024, resumable=True)
             req = yt.videos().insert(part="snippet,status", body=body, media_body=media, notifySubscribers=True)
             res = None
             while res is None:
@@ -98,7 +115,6 @@ def main():
             continue
         print(f"uploaded {slug}: https://youtube.com/shorts/{vid}  (goes public {when.isoformat()})")
         notes = []
-        cover = os.path.join(d, "cover.png")
         if os.path.exists(cover):
             try:
                 yt.thumbnails().set(videoId=vid, media_body=MediaFileUpload(cover, mimetype="image/png")).execute()
@@ -114,12 +130,12 @@ def main():
         meta.update(youtube_id=vid, url=f"https://youtube.com/shorts/{vid}", uploaded_at=now.isoformat(timespec="seconds"),
                     scheduled_for=when.isoformat(timespec="seconds"), notes=notes)
         json.dump(meta, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-        os.remove(os.path.join(d, "video.mp4"))
+        os.remove(video)
         done += 1
         time.sleep(2)
     # human-readable log
     rows = []
-    for m in sorted(glob.glob(os.path.join(ROOT, "shorts", "*", "meta.json"))):
+    for m, _, _ in all_metas():
         x = json.load(open(m, encoding="utf-8"))
         rows.append((x.get("scheduled_for") or x.get("publish_at", ""), x["slug"], x.get("character", ""), x.get("url", "waiting"), x["title"]))
     with open(os.path.join(ROOT, "UPLOADS.md"), "w", encoding="utf-8") as f:
