@@ -86,7 +86,57 @@ def thumb_retries():
     return out
 
 
+INBOX_API = "https://api.github.com/repos/parinthakkar/thats-the-trick-videos/contents/dadi-inbox?ref=dadi-inbox"
+
+
+def fetch_inbox():
+    """Copy new Shorts (<slug>.json/.mp4/.png) from the dadi-inbox branch of the public thats-the-trick-videos repo,
+    where the daily Claude task drops them. Only reads that branch; never writes to it."""
+    import urllib.request
+    def get(url, api=False):
+        h = {"User-Agent": "dadi-ke-kisse-uploader"}
+        if api and os.environ.get("GITHUB_TOKEN"):
+            h["Authorization"] = "Bearer " + os.environ["GITHUB_TOKEN"]
+        with urllib.request.urlopen(urllib.request.Request(url, headers=h), timeout=120) as r:
+            return r.read()
+    raw = "https://raw.githubusercontent.com/parinthakkar/thats-the-trick-videos/dadi-inbox/dadi-inbox/"
+    try:
+        listing = json.loads(get(INBOX_API, api=True))
+        files = {f["name"]: f["download_url"] for f in listing if f.get("type") == "file"}
+    except Exception as e:                              # API rate limit etc.: fall back to the inbox's index.json
+        try:
+            slugs = json.loads(get(raw + "index.json"))
+            files = {f"{x}.{ext}": f"{raw}{x}.{ext}" for x in slugs for ext in ("json", "mp4", "png")}
+        except Exception as e2:
+            print(f"::warning::could not read the inbox: {e} / {e2}"); return
+    for name, url in sorted(files.items()):
+        if not name.endswith(".json"):
+            continue
+        slug = name[:-5]
+        if os.path.exists(os.path.join(ROOT, name)) or os.path.exists(os.path.join(ROOT, "shorts", slug)):
+            continue                                   # already imported (or uploaded)
+        if slug + ".mp4" not in files:
+            print(f"::warning::inbox: {slug} has no video yet"); continue
+        try:
+            meta = json.loads(get(url))
+            assert meta.get("slug") == slug and meta.get("title")
+            video = get(files[slug + ".mp4"])
+        except Exception as e:
+            print(f"::warning::inbox: could not import {slug}: {e}"); continue
+        cover = None
+        try:
+            cover = get(files[slug + ".png"]) if slug + ".png" in files else None
+        except Exception:
+            pass
+        open(os.path.join(ROOT, slug + ".mp4"), "wb").write(video)
+        if cover:
+            open(os.path.join(ROOT, slug + ".png"), "wb").write(cover)
+        json.dump(meta, open(os.path.join(ROOT, name), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        print(f"imported {slug} from the inbox")
+
+
 def main():
+    fetch_inbox()
     items = pending(); thumbs = thumb_retries()
     if not items and not thumbs:
         print("Nothing to upload."); return
