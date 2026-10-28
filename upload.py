@@ -135,11 +135,60 @@ def fetch_inbox():
         print(f"imported {slug} from the inbox")
 
 
+def sync_to_latest():
+    """A re-run of an old workflow run checks out that old commit, where already-uploaded Shorts
+    don't have their youtube_id yet (that caused duplicate uploads). Always work on the newest main."""
+    import subprocess
+    if os.environ.get("GITHUB_ACTIONS") != "true":
+        return
+    r = subprocess.run("git fetch -q origin main && git reset -q --hard origin/main", shell=True, cwd=ROOT)
+    print("synced to latest main" if r.returncode == 0 else "::warning::could not sync to latest main")
+
+
+def channel_uploads(yt):
+    """title -> list of (video_id, published_at) for every video on the channel (incl. private/scheduled)."""
+    ch = yt.channels().list(part="contentDetails", mine=True).execute()["items"][0]
+    pl = ch["contentDetails"]["relatedPlaylists"]["uploads"]
+    out = {}
+    req = yt.playlistItems().list(part="snippet", playlistId=pl, maxResults=50)
+    while req is not None:
+        res = req.execute()
+        for it in res.get("items", []):
+            sn = it["snippet"]
+            out.setdefault(sn["title"], []).append((sn["resourceId"]["videoId"], sn.get("publishedAt", "")))
+        req = yt.playlistItems().list_next(req, res)
+    return out
+
+
+def remove_duplicates(yt, uploads):
+    """For each of our Shorts, keep the copy recorded in its .json and delete any other copy with the same title."""
+    from googleapiclient.errors import HttpError
+    removed = 0
+    for m, _, _ in all_metas():
+        meta = json.load(open(m, encoding="utf-8"))
+        keep = meta.get("youtube_id")
+        copies = [v for v, _ in uploads.get(meta.get("title", "")[:100], [])]
+        if not keep or keep not in copies or len(copies) < 2:
+            continue
+        for vid in copies:
+            if vid == keep:
+                continue
+            try:
+                yt.videos().delete(id=vid).execute(); removed += 1
+                print(f"removed duplicate of {meta['slug']}: {vid} (kept {keep})")
+            except HttpError as e:
+                print(f"::warning::could not remove duplicate {vid} of {meta['slug']}: {e}")
+        uploads[meta["title"][:100]] = [(keep, "")]
+    if removed:
+        print(f"removed {removed} duplicate video(s)")
+
+
 def main():
+    sync_to_latest()
     fetch_inbox()
     items = pending(); thumbs = thumb_retries()
-    if not items and not thumbs:
-        print("Nothing to upload."); return
+    if not os.environ.get("YT_REFRESH_TOKEN"):
+        creds()   # prints the 'secrets not set' message and exits
     from googleapiclient.discovery import build
     from googleapiclient.http import MediaFileUpload
     from googleapiclient.errors import HttpError
@@ -149,6 +198,8 @@ def main():
     if want not in mine:   # safety: never upload to the wrong channel (e.g. That's The Trick)
         print(f"::error::The Google login is for channel {mine}, not Dadi Ke Kisse ({want}). Redo README step 4 and pick the Dadi Ke Kisse channel.")
         sys.exit(1)
+    uploads = channel_uploads(yt)
+    remove_duplicates(yt, uploads)
     now = dt.datetime.now(dt.timezone.utc); bump = 0; done = 0; cache = {}; failed = []; limited = False
     for path, cover, meta in thumbs:   # covers that could not be set before (e.g. channel not phone-verified yet)
         try:
@@ -169,6 +220,15 @@ def main():
         body = {"snippet": {"title": meta["title"][:100], "description": meta["description"][:4900], "tags": meta.get("tags", [])[:15],
                             "categoryId": str(meta.get("category_id", "1")), "defaultLanguage": meta.get("language", "hi"),
                             "defaultAudioLanguage": meta.get("language", "hi")}, "status": status}
+        existing = uploads.get(body["snippet"]["title"])
+        if existing:
+            vid = existing[0][0]
+            print(f"{slug} is already on the channel ({vid}); not uploading it again")
+            meta.update(youtube_id=vid, url=f"https://youtube.com/shorts/{vid}", uploaded_at=now.isoformat(timespec="seconds"),
+                        scheduled_for=when.isoformat(timespec="seconds"), notes=["thumbnail check"])
+            json.dump(meta, open(path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+            os.remove(video); done += 1
+            continue
         try:
             media = MediaFileUpload(video, mimetype="video/mp4", chunksize=8 * 1024 * 1024, resumable=True)
             req = yt.videos().insert(part="snippet,status", body=body, media_body=media, notifySubscribers=True)
@@ -184,6 +244,7 @@ def main():
                 break
             print(f"::error::{slug}: upload failed: {e}"); failed.append(slug)
             continue
+        uploads[body["snippet"]["title"]] = [(vid, "")]
         print(f"uploaded {slug}: https://youtube.com/shorts/{vid}  (goes public {when.isoformat()})")
         notes = []
         if os.path.exists(cover):
