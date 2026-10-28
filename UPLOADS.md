@@ -11,10 +11,13 @@ Updated automatically by the upload workflow.
 | 2026-10-28T14:00:00+00:00 | sheikh-chilli-dream | Sheikh Chilli | https://youtube.com/shorts/G9tDuDM474s | शेख चिल्ली का दूध का घड़ा क्यों फूट गया? / Sheikh Chilli's Pot of Milk / Sheikh Chilli Story |
 | 2026-10-28T16:00:00+00:00 | birbal-crows | Akbar-Birbal | https://youtube.com/shorts/MbI5QdbalTI | आगरा में कितने कौवे? बीरबल का जवाब / How Many Crows in Agra? / Akbar Birbal Story |
 | 2026-10-29T01:30:00+00:00 | panchatantra-monkey-crocodile | Panchatantra | https://youtube.com/shorts/lwoYKrRD2zY | बंदर ने मगरमच्छ से अपना दिल कैसे बचाया? / The Monkey and the Crocodile / Panchatantra Story |
+| 2026-10-29T03:00:00+00:00 | mulla-smell-soup | Mulla Nasruddin | https://youtube.com/shorts/zj7RNPMQg8M | मुल्ला ने खुशबू की कीमत कैसे चुकाई? / Paying for the Smell of Food / Mulla Nasruddin Story |
 | 2026-10-29T05:00:00+00:00 | tenali-thieves-well | Tenali Rama | https://youtube.com/shorts/UdZoo57FsJA | तेनालीराम ने चोरों से बगीचा कैसे सिंचवाया? / Tenali Tricks the Thieves / Tenali Rama Story |
 | 2026-10-29T06:00:00+00:00 | mulla-pot | Mulla Nasruddin | https://youtube.com/shorts/neanaaU8Rm4 | मुल्ला नसरुद्दीन का बर्तन कैसे मर गया? / The Pot That Died / Mulla Nasruddin Story |
+| 2026-10-29T07:30:00+00:00 | birbal-brinjal | Akbar-Birbal | https://youtube.com/shorts/CuaOpajmdqU | बीरबल ने बैंगन की तारीफ़ और बुराई क्यों की? / The Brinjal Test / Akbar Birbal Story |
 | 2026-10-29T10:30:00+00:00 | birbal-khichdi | Akbar-Birbal | https://youtube.com/shorts/uH2NO-IpB7E | बीरबल की खिचड़ी ने अकबर को कैसे सबक सिखाया? / Birbal's Khichdi / Akbar Birbal Story |
 | 2026-10-29T12:00:00+00:00 | panchatantra-tortoise | Panchatantra | https://youtube.com/shorts/IWCpCQvq_eM | कछुआ आसमान से क्यों गिरा? / The Talkative Tortoise / Panchatantra Story |
+| 2026-10-29T14:00:00+00:00 | panchatantra-crows-snake | Panchatantra | https://youtube.com/shorts/RUQg51OEv2c | कौवी ने साँप को कैसे हराया? / The Crows and the Snake / Panchatantra Story |
 | 2026-10-29T16:00:00+00:00 | tenali-golden-mangoes | Tenali Rama | https://youtube.com/shorts/OmsTY6aQdKM | तेनालीराम ने सोने के आम कैसे लौटवाए? / Tenali and the Golden Mangoes / Tenali Rama Story |
 | 2026-10-30T01:30:00+00:00 | mulla-key-lamp | Mulla Nasruddin | https://youtube.com/shorts/s0c2cSKaq70 | मुल्ला नसरुद्दीन की चाबी कहाँ खो गई थी? / Where Did Mulla Lose His Key? / Mulla Nasruddin Story |
 | 2026-10-30T05:00:00+00:00 | birbal-line | Akbar-Birbal | https://youtube.com/shorts/KWMMLW7q72E | बीरबल ने लकीर बिना मिटाए छोटी कैसे की? / Shorten the Line Without Erasing It / Akbar Birbal Story |
