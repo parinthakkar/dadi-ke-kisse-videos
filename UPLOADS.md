@@ -20,7 +20,10 @@ Updated automatically by the upload workflow.
 | 2026-10-29T14:00:00+00:00 | panchatantra-crows-snake | Panchatantra | https://youtube.com/shorts/RUQg51OEv2c | कौवी ने साँप को कैसे हराया? / The Crows and the Snake / Panchatantra Story |
 | 2026-10-29T16:00:00+00:00 | tenali-golden-mangoes | Tenali Rama | https://youtube.com/shorts/OmsTY6aQdKM | तेनालीराम ने सोने के आम कैसे लौटवाए? / Tenali and the Golden Mangoes / Tenali Rama Story |
 | 2026-10-30T01:30:00+00:00 | mulla-key-lamp | Mulla Nasruddin | https://youtube.com/shorts/s0c2cSKaq70 | मुल्ला नसरुद्दीन की चाबी कहाँ खो गई थी? / Where Did Mulla Lose His Key? / Mulla Nasruddin Story |
+| 2026-10-30T03:00:00+00:00 | birbal-rooster-egg | Akbar-Birbal | https://youtube.com/shorts/rPe0tMilPqI | बीरबल ने अकबर की अंडे वाली चाल कैसे पलटी? / The Rooster's Egg / Akbar Birbal Story |
 | 2026-10-30T05:00:00+00:00 | birbal-line | Akbar-Birbal | https://youtube.com/shorts/KWMMLW7q72E | बीरबल ने लकीर बिना मिटाए छोटी कैसे की? / Shorten the Line Without Erasing It / Akbar Birbal Story |
+| 2026-10-30T07:30:00+00:00 | tenali-dream-palace | Tenali Rama | https://youtube.com/shorts/qq7eDUpXNHg | तेनालीराम ने राजा का सपना कैसे तोड़ा? / The King's Dream Palace / Tenali Rama Story |
 | 2026-10-30T10:30:00+00:00 | tenali-horse | Tenali Rama | https://youtube.com/shorts/y1QM0U1ZFrg | तेनालीराम का घोड़ा सबसे ताकतवर कैसे बना? / The Strongest Horse / Tenali Rama Story |
 | 2026-10-30T12:00:00+00:00 | birbal-well | Akbar-Birbal | https://youtube.com/shorts/RmT9o90Nzdg | बीरबल ने कुएँ के पानी का झगड़ा कैसे सुलझाया? / I Sold the Well, Not the Water / Akbar Birbal Story |
+| 2026-10-30T14:00:00+00:00 | mulla-donkey-everyone | Mulla Nasruddin | https://youtube.com/shorts/LDOX9UXJWug | मुल्ला नसरुद्दीन सबको खुश क्यों नहीं कर पाए? / You Can't Please Everyone / Mulla Nasruddin Story |
 | 2026-10-30T16:00:00+00:00 | birbal-parrot | Akbar-Birbal | https://youtube.com/shorts/9qgYOra5bhA | बीरबल ने तोते की मौत की खबर कैसे दी? / The Parrot That Won't Eat / Akbar Birbal Story |
