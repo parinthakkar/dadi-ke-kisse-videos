@@ -27,3 +27,6 @@ Updated automatically by the upload workflow.
 | 2026-10-30T12:00:00+00:00 | birbal-well | Akbar-Birbal | https://youtube.com/shorts/RmT9o90Nzdg | बीरबल ने कुएँ के पानी का झगड़ा कैसे सुलझाया? / I Sold the Well, Not the Water / Akbar Birbal Story |
 | 2026-10-30T14:00:00+00:00 | mulla-donkey-everyone | Mulla Nasruddin | https://youtube.com/shorts/LDOX9UXJWug | मुल्ला नसरुद्दीन सबको खुश क्यों नहीं कर पाए? / You Can't Please Everyone / Mulla Nasruddin Story |
 | 2026-10-30T16:00:00+00:00 | birbal-parrot | Akbar-Birbal | https://youtube.com/shorts/9qgYOra5bhA | बीरबल ने तोते की मौत की खबर कैसे दी? / The Parrot That Won't Eat / Akbar Birbal Story |
+| 2026-10-31T03:00:00+00:00 | birbal-centre-earth | Akbar-Birbal | https://youtube.com/shorts/DCJf2iiyGMo | बीरबल ने धरती का केंद्र कैसे ढूँढा? / The Centre of the Earth / Akbar Birbal Story |
+| 2026-10-31T07:30:00+00:00 | tenali-list-of-fools | Tenali Rama | https://youtube.com/shorts/0jEyRZCHyUs | तेनालीराम ने राजा को मूर्ख क्यों लिखा? / The List of Fools / Tenali Rama Story |
+| 2026-10-31T14:00:00+00:00 | mulla-sermon-half | Mulla Nasruddin | https://youtube.com/shorts/Jvqwe4AApzw | मुल्ला नसरुद्दीन भाषण से कैसे बचे? / The Speech Mulla Never Gave / Mulla Nasruddin Story |
