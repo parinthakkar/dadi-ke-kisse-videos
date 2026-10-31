@@ -30,3 +30,6 @@ Updated automatically by the upload workflow.
 | 2026-10-31T03:00:00+00:00 | birbal-centre-earth | Akbar-Birbal | https://youtube.com/shorts/DCJf2iiyGMo | बीरबल ने धरती का केंद्र कैसे ढूँढा? / The Centre of the Earth / Akbar Birbal Story |
 | 2026-10-31T07:30:00+00:00 | tenali-list-of-fools | Tenali Rama | https://youtube.com/shorts/0jEyRZCHyUs | तेनालीराम ने राजा को मूर्ख क्यों लिखा? / The List of Fools / Tenali Rama Story |
 | 2026-10-31T14:00:00+00:00 | mulla-sermon-half | Mulla Nasruddin | https://youtube.com/shorts/Jvqwe4AApzw | मुल्ला नसरुद्दीन भाषण से कैसे बचे? / The Speech Mulla Never Gave / Mulla Nasruddin Story |
+| 2026-11-01T03:00:00+00:00 | panchatantra-blue-jackal | Panchatantra | https://youtube.com/shorts/81ok0-c38sI | नीला सियार राजा कैसे बना? / The Blue Jackal / Panchatantra Story |
+| 2026-11-01T07:30:00+00:00 | tenali-pot-face | Tenali Rama | https://youtube.com/shorts/bAY4Sxko1EA | तेनालीराम घड़ा पहनकर दरबार क्यों आए? / The Face Under the Pot / Tenali Rama Story |
+| 2026-11-01T14:00:00+00:00 | birbal-milk-pond | Akbar-Birbal | https://youtube.com/shorts/t4vPO2Pqa9c | दूध का हौज पानी से कैसे भरा? / The Pond of Milk / Akbar Birbal Story |
