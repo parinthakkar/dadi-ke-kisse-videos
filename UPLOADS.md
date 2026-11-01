@@ -33,3 +33,6 @@ Updated automatically by the upload workflow.
 | 2026-11-01T03:00:00+00:00 | panchatantra-blue-jackal | Panchatantra | https://youtube.com/shorts/81ok0-c38sI | नीला सियार राजा कैसे बना? / The Blue Jackal / Panchatantra Story |
 | 2026-11-01T07:30:00+00:00 | tenali-pot-face | Tenali Rama | https://youtube.com/shorts/bAY4Sxko1EA | तेनालीराम घड़ा पहनकर दरबार क्यों आए? / The Face Under the Pot / Tenali Rama Story |
 | 2026-11-01T14:00:00+00:00 | birbal-milk-pond | Akbar-Birbal | https://youtube.com/shorts/t4vPO2Pqa9c | दूध का हौज पानी से कैसे भरा? / The Pond of Milk / Akbar Birbal Story |
+| 2026-11-02T03:00:00+00:00 | panchatantra-doves-net | Panchatantra | https://youtube.com/shorts/JbNQe-cVbsE | कबूतर जाल समेत कैसे उड़ गए? / The Doves Who Flew Away With the Net / Panchatantra Story |
+| 2026-11-02T07:30:00+00:00 | tenali-brinjal-curry | Tenali Rama | https://youtube.com/shorts/7ZRs85sWXnM | तेनालीराम ने राजा के बैंगन कैसे चुराए? / Tenali and the Royal Brinjals / Tenali Rama Story |
+| 2026-11-02T14:00:00+00:00 | mulla-you-are-right | Mulla Nasruddin | https://youtube.com/shorts/l6fpyMuZuYA | मुल्ला ने दोनों को सही क्यों कहा? / You Are Right Too! / Mulla Nasruddin Story |
