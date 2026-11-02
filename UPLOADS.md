@@ -36,3 +36,6 @@ Updated automatically by the upload workflow.
 | 2026-11-02T03:00:00+00:00 | panchatantra-doves-net | Panchatantra | https://youtube.com/shorts/JbNQe-cVbsE | कबूतर जाल समेत कैसे उड़ गए? / The Doves Who Flew Away With the Net / Panchatantra Story |
 | 2026-11-02T07:30:00+00:00 | tenali-brinjal-curry | Tenali Rama | https://youtube.com/shorts/7ZRs85sWXnM | तेनालीराम ने राजा के बैंगन कैसे चुराए? / Tenali and the Royal Brinjals / Tenali Rama Story |
 | 2026-11-02T14:00:00+00:00 | mulla-you-are-right | Mulla Nasruddin | https://youtube.com/shorts/l6fpyMuZuYA | मुल्ला ने दोनों को सही क्यों कहा? / You Are Right Too! / Mulla Nasruddin Story |
+| 2026-11-03T03:00:00+00:00 | panchatantra-elephants-mice | Panchatantra | https://youtube.com/shorts/7ZHPYL6mzig | छोटे चूहों ने हाथियों को कैसे बचाया? / The Mice Who Saved the Elephants / Panchatantra Story |
+| 2026-11-03T07:30:00+00:00 | mulla-donkey-read | Mulla Nasruddin | https://youtube.com/shorts/uiwFeV82o7g | मुल्ला नसरुद्दीन ने गधे को कैसे पढ़ाया? / The Donkey Who Could Read / Mulla Nasruddin Story |
+| 2026-11-03T14:00:00+00:00 | birbal-beautiful-child | Akbar-Birbal | https://youtube.com/shorts/IxdIagzTVJc | दुनिया का सबसे सुंदर बच्चा कौन? / The Most Beautiful Child / Akbar Birbal Story |
