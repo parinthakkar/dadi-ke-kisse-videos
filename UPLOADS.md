@@ -39,3 +39,6 @@ Updated automatically by the upload workflow.
 | 2026-11-03T03:00:00+00:00 | panchatantra-elephants-mice | Panchatantra | https://youtube.com/shorts/7ZHPYL6mzig | छोटे चूहों ने हाथियों को कैसे बचाया? / The Mice Who Saved the Elephants / Panchatantra Story |
 | 2026-11-03T07:30:00+00:00 | mulla-donkey-read | Mulla Nasruddin | https://youtube.com/shorts/uiwFeV82o7g | मुल्ला नसरुद्दीन ने गधे को कैसे पढ़ाया? / The Donkey Who Could Read / Mulla Nasruddin Story |
 | 2026-11-03T14:00:00+00:00 | birbal-beautiful-child | Akbar-Birbal | https://youtube.com/shorts/IxdIagzTVJc | दुनिया का सबसे सुंदर बच्चा कौन? / The Most Beautiful Child / Akbar Birbal Story |
+| 2026-11-04T03:00:00+00:00 | panchatantra-monkey-wedge | Panchatantra | https://youtube.com/shorts/WhbRoKPOAWU | बंदर ने खूँटा खींचा, फिर क्या हुआ? / The Monkey and the Wedge / Panchatantra Story |
+| 2026-11-04T07:30:00+00:00 | birbal-oil-coins | Akbar-Birbal | https://youtube.com/shorts/Wu7Ki5VDOaI | बीरबल ने पानी से चोर कैसे पकड़ा? / The Oily Coins / Akbar Birbal Story |
+| 2026-11-04T14:00:00+00:00 | mulla-donkey-word | Mulla Nasruddin | https://youtube.com/shorts/EUf_1mca1Q4 | मुल्ला ने गधे को झूठा कैसे बताया? / Believe Me or the Donkey? / Mulla Nasruddin Story |
