@@ -45,3 +45,6 @@ Updated automatically by the upload workflow.
 | 2026-11-05T03:00:00+00:00 | panchatantra-brahmin-goat | Panchatantra | https://youtube.com/shorts/uZji_MWnHWE | ब्राह्मण ने अपनी ही बकरी क्यों फेंक दी? / The Brahmin and the Three Crooks / Panchatantra Story |
 | 2026-11-05T07:30:00+00:00 | jataka-timid-hare | Jataka | https://youtube.com/shorts/eiJeCasiBi8 | एक खरगोश की अफवाह से पूरा जंगल क्यों भागा? / The Timid Hare / Jataka Tale |
 | 2026-11-05T14:00:00+00:00 | tenali-greedy-guard | Tenali Rama | https://youtube.com/shorts/spIjVqw5JUs | तेनालीराम ने इनाम में सौ कोड़े क्यों माँगे? / The Greedy Guard / Tenali Rama Story |
+| 2026-11-06T03:00:00+00:00 | panchatantra-heron-crab | Panchatantra | https://youtube.com/shorts/rF4c41V5nLk | बगुले की चाल, केकड़े ने कैसे पकड़ी? / The Heron Who Tricked the Fish / Panchatantra Story |
+| 2026-11-06T07:30:00+00:00 | birbal-beard-pull | Akbar-Birbal | https://youtube.com/shorts/FGSFB7UJ_e0 | बादशाह की दाढ़ी किसने खींची? / Who Pulled the Emperor's Beard? / Akbar Birbal Story |
+| 2026-11-06T14:00:00+00:00 | mulla-smuggler | Mulla Nasruddin | https://youtube.com/shorts/xCHf9LJ0Yd8 | मुल्ला सरहद पार क्या ले जाते थे? / The Smuggler Nobody Could Catch / Mulla Nasruddin Story |
