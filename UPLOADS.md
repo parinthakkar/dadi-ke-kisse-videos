@@ -48,3 +48,6 @@ Updated automatically by the upload workflow.
 | 2026-11-06T03:00:00+00:00 | panchatantra-heron-crab | Panchatantra | https://youtube.com/shorts/rF4c41V5nLk | बगुले की चाल, केकड़े ने कैसे पकड़ी? / The Heron Who Tricked the Fish / Panchatantra Story |
 | 2026-11-06T07:30:00+00:00 | birbal-beard-pull | Akbar-Birbal | https://youtube.com/shorts/FGSFB7UJ_e0 | बादशाह की दाढ़ी किसने खींची? / Who Pulled the Emperor's Beard? / Akbar Birbal Story |
 | 2026-11-06T14:00:00+00:00 | mulla-smuggler | Mulla Nasruddin | https://youtube.com/shorts/xCHf9LJ0Yd8 | मुल्ला सरहद पार क्या ले जाते थे? / The Smuggler Nobody Could Catch / Mulla Nasruddin Story |
+| 2026-11-07T03:00:00+00:00 | panchatantra-mongoose | Panchatantra | https://youtube.com/shorts/oZq81pOMvnY | माँ ने वफादार नेवले को क्यों मारा? / The Loyal Mongoose / Panchatantra Story |
+| 2026-11-07T07:30:00+00:00 | jataka-monkey-bridge | Jataka | https://youtube.com/shorts/GvLF2sQclzI | बंदर राजा ने हज़ारों बंदरों को कैसे बचाया? / The Monkey King's Bridge / Jataka Tale |
+| 2026-11-07T14:00:00+00:00 | birbal-mother-tongue | Akbar-Birbal | https://youtube.com/shorts/uFVegLmyEjA | बीरबल ने विद्वान की मातृभाषा कैसे पकड़ी? / The Scholar's Mother Tongue / Akbar Birbal Story |
