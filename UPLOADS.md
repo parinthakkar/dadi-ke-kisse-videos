@@ -51,3 +51,6 @@ Updated automatically by the upload workflow.
 | 2026-11-07T03:00:00+00:00 | panchatantra-mongoose | Panchatantra | https://youtube.com/shorts/oZq81pOMvnY | माँ ने वफादार नेवले को क्यों मारा? / The Loyal Mongoose / Panchatantra Story |
 | 2026-11-07T07:30:00+00:00 | jataka-monkey-bridge | Jataka | https://youtube.com/shorts/GvLF2sQclzI | बंदर राजा ने हज़ारों बंदरों को कैसे बचाया? / The Monkey King's Bridge / Jataka Tale |
 | 2026-11-07T14:00:00+00:00 | birbal-mother-tongue | Akbar-Birbal | https://youtube.com/shorts/uFVegLmyEjA | बीरबल ने विद्वान की मातृभाषा कैसे पकड़ी? / The Scholar's Mother Tongue / Akbar Birbal Story |
+| 2026-11-08T03:00:00+00:00 | panchatantra-lion-makers | Panchatantra | https://youtube.com/shorts/7pw0xEPHmoI | मरे शेर को ज़िंदा किया, फिर क्या हुआ? / The Lion Makers / Panchatantra Story |
+| 2026-11-08T07:30:00+00:00 | mulla-moon-well | Mulla Nasruddin | https://youtube.com/shorts/F7lA8Pb0hwY | मुल्ला नसरुद्दीन ने कुएँ से चाँद कैसे बचाया? / The Moon in the Well / Mulla Nasruddin Story |
+| 2026-11-08T14:00:00+00:00 | jataka-golden-swan | Jataka | https://youtube.com/shorts/gJSi9f3C41g | सोने के पंखों वाला हंस क्यों उड़ गया? / The Golden Swan / Jataka Tale |
