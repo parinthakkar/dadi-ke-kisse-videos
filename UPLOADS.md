@@ -54,3 +54,6 @@ Updated automatically by the upload workflow.
 | 2026-11-08T03:00:00+00:00 | panchatantra-lion-makers | Panchatantra | https://youtube.com/shorts/7pw0xEPHmoI | मरे शेर को ज़िंदा किया, फिर क्या हुआ? / The Lion Makers / Panchatantra Story |
 | 2026-11-08T07:30:00+00:00 | mulla-moon-well | Mulla Nasruddin | https://youtube.com/shorts/F7lA8Pb0hwY | मुल्ला नसरुद्दीन ने कुएँ से चाँद कैसे बचाया? / The Moon in the Well / Mulla Nasruddin Story |
 | 2026-11-08T14:00:00+00:00 | jataka-golden-swan | Jataka | https://youtube.com/shorts/gJSi9f3C41g | सोने के पंखों वाला हंस क्यों उड़ गया? / The Golden Swan / Jataka Tale |
+| 2026-11-09T03:00:00+00:00 | tenali-painting | Tenali Rama | https://youtube.com/shorts/GlE0OCaN28k | तेनालीराम ने राजा को आधी तस्वीर से क्या सिखाया? / The Half-Painted Portrait / Tenali Rama Story |
+| 2026-11-09T07:30:00+00:00 | birbal-sand-sugar | Akbar-Birbal | https://youtube.com/shorts/c8Rjd3pl7bM | बीरबल ने रेत से चीनी कैसे अलग की? / Sand and Sugar / Akbar Birbal Story |
+| 2026-11-09T14:00:00+00:00 | mulla-cat-meat | Mulla Nasruddin | https://youtube.com/shorts/v3qvrOqd8Wo | मुल्ला नसरुद्दीन ने बिल्ली को क्यों तौला? / The Cat and the Meat / Mulla Nasruddin Story |
