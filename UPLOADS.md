@@ -57,3 +57,6 @@ Updated automatically by the upload workflow.
 | 2026-11-09T03:00:00+00:00 | tenali-painting | Tenali Rama | https://youtube.com/shorts/GlE0OCaN28k | तेनालीराम ने राजा को आधी तस्वीर से क्या सिखाया? / The Half-Painted Portrait / Tenali Rama Story |
 | 2026-11-09T07:30:00+00:00 | birbal-sand-sugar | Akbar-Birbal | https://youtube.com/shorts/c8Rjd3pl7bM | बीरबल ने रेत से चीनी कैसे अलग की? / Sand and Sugar / Akbar Birbal Story |
 | 2026-11-09T14:00:00+00:00 | mulla-cat-meat | Mulla Nasruddin | https://youtube.com/shorts/v3qvrOqd8Wo | मुल्ला नसरुद्दीन ने बिल्ली को क्यों तौला? / The Cat and the Meat / Mulla Nasruddin Story |
+| 2026-11-10T03:00:00+00:00 | panchatantra-monkey-guard | Panchatantra | https://youtube.com/shorts/gNYFMySaUm0 | राजा के बंदर ने तलवार क्यों चलाई? / The King and the Foolish Monkey / Panchatantra Story |
+| 2026-11-10T07:30:00+00:00 | jataka-monkey-gardeners | Jataka | https://youtube.com/shorts/zGRhP-Su6sM | बंदरों ने पूरा बगीचा कैसे सुखा दिया? / The Monkey Gardeners / Jataka Tale |
+| 2026-11-10T14:00:00+00:00 | birbal-straw-beard | Akbar-Birbal | https://youtube.com/shorts/OzyKKLByPko | बीरबल ने अंगूठी चोर को कैसे पकड़ा? / The Straw in the Thief's Beard / Akbar Birbal Story |
