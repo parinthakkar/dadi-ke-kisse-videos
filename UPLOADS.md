@@ -60,3 +60,6 @@ Updated automatically by the upload workflow.
 | 2026-11-10T03:00:00+00:00 | panchatantra-monkey-guard | Panchatantra | https://youtube.com/shorts/gNYFMySaUm0 | राजा के बंदर ने तलवार क्यों चलाई? / The King and the Foolish Monkey / Panchatantra Story |
 | 2026-11-10T07:30:00+00:00 | jataka-monkey-gardeners | Jataka | https://youtube.com/shorts/zGRhP-Su6sM | बंदरों ने पूरा बगीचा कैसे सुखा दिया? / The Monkey Gardeners / Jataka Tale |
 | 2026-11-10T14:00:00+00:00 | birbal-straw-beard | Akbar-Birbal | https://youtube.com/shorts/OzyKKLByPko | बीरबल ने अंगूठी चोर को कैसे पकड़ा? / The Straw in the Thief's Beard / Akbar Birbal Story |
+| 2026-11-11T03:00:00+00:00 | tenali-unlucky-face | Tenali Rama | https://youtube.com/shorts/tkU9GMfHVGA | तेनालीराम ने रामय्या को फाँसी से कैसे बचाया? / The Unlucky Face / Tenali Rama Story |
+| 2026-11-11T07:30:00+00:00 | mulla-bath-tip | Mulla Nasruddin | https://youtube.com/shorts/o_1mXthFVDY | मुल्ला ने खराब सेवा पर बड़ा इनाम क्यों दिया? / The Upside-Down Tip / Mulla Nasruddin Story |
+| 2026-11-11T14:00:00+00:00 | jataka-nandivisala | Jataka | https://youtube.com/shorts/BdN-9TvOLGo | नंदीविशाल बैल ने शर्त क्यों हरवाई? / The Bull Who Wouldn't Pull / Jataka Tale |
