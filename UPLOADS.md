@@ -63,3 +63,6 @@ Updated automatically by the upload workflow.
 | 2026-11-11T03:00:00+00:00 | tenali-unlucky-face | Tenali Rama | https://youtube.com/shorts/tkU9GMfHVGA | तेनालीराम ने रामय्या को फाँसी से कैसे बचाया? / The Unlucky Face / Tenali Rama Story |
 | 2026-11-11T07:30:00+00:00 | mulla-bath-tip | Mulla Nasruddin | https://youtube.com/shorts/o_1mXthFVDY | मुल्ला ने खराब सेवा पर बड़ा इनाम क्यों दिया? / The Upside-Down Tip / Mulla Nasruddin Story |
 | 2026-11-11T14:00:00+00:00 | jataka-nandivisala | Jataka | https://youtube.com/shorts/BdN-9TvOLGo | नंदीविशाल बैल ने शर्त क्यों हरवाई? / The Bull Who Wouldn't Pull / Jataka Tale |
+| 2026-11-12T03:00:00+00:00 | panchatantra-singing-donkey | Panchatantra | https://youtube.com/shorts/et40wZHOK6k | गधे ने गाना गाया, और फिर...? / The Singing Donkey / Panchatantra Story |
+| 2026-11-12T07:30:00+00:00 | birbal-pot-of-wit | Akbar-Birbal | https://youtube.com/shorts/_lXmnA3y718 | बीरबल ने घड़े में अक्ल कैसे भरी? / A Pot Full of Wit / Akbar Birbal Story |
+| 2026-11-12T14:00:00+00:00 | jataka-quarrelling-quails | Jataka | https://youtube.com/shorts/yhoAjV_xXN4 | बटेरें जाल लेकर कैसे उड़ गईं? / The Quarrelling Quails / Jataka Tale |
