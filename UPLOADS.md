@@ -66,3 +66,6 @@ Updated automatically by the upload workflow.
 | 2026-11-12T03:00:00+00:00 | panchatantra-singing-donkey | Panchatantra | https://youtube.com/shorts/et40wZHOK6k | गधे ने गाना गाया, और फिर...? / The Singing Donkey / Panchatantra Story |
 | 2026-11-12T07:30:00+00:00 | birbal-pot-of-wit | Akbar-Birbal | https://youtube.com/shorts/_lXmnA3y718 | बीरबल ने घड़े में अक्ल कैसे भरी? / A Pot Full of Wit / Akbar Birbal Story |
 | 2026-11-12T14:00:00+00:00 | jataka-quarrelling-quails | Jataka | https://youtube.com/shorts/yhoAjV_xXN4 | बटेरें जाल लेकर कैसे उड़ गईं? / The Quarrelling Quails / Jataka Tale |
+| 2026-11-13T03:00:00+00:00 | tenali-magician | Tenali Rama | https://youtube.com/shorts/2VeMKdY9cC0 | तेनालीराम ने घमंडी जादूगर को कैसे हराया? / The Magician's Challenge / Tenali Rama Story |
+| 2026-11-13T07:30:00+00:00 | panchatantra-iron-scales | Panchatantra | https://youtube.com/shorts/oPOhXmHphV0 | लोहे का तराज़ू चूहे खा गए? / The Mice That Ate Iron / Panchatantra Story |
+| 2026-11-13T14:00:00+00:00 | birbal-mango-tree | Akbar-Birbal | https://youtube.com/shorts/SbxUiBx9Sfg | आम का पेड़ किसका? बीरबल का फैसला / Whose Mango Tree? / Akbar Birbal Story |
