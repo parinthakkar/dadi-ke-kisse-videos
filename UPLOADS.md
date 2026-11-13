@@ -69,3 +69,6 @@ Updated automatically by the upload workflow.
 | 2026-11-13T03:00:00+00:00 | tenali-magician | Tenali Rama | https://youtube.com/shorts/2VeMKdY9cC0 | तेनालीराम ने घमंडी जादूगर को कैसे हराया? / The Magician's Challenge / Tenali Rama Story |
 | 2026-11-13T07:30:00+00:00 | panchatantra-iron-scales | Panchatantra | https://youtube.com/shorts/oPOhXmHphV0 | लोहे का तराज़ू चूहे खा गए? / The Mice That Ate Iron / Panchatantra Story |
 | 2026-11-13T14:00:00+00:00 | birbal-mango-tree | Akbar-Birbal | https://youtube.com/shorts/SbxUiBx9Sfg | आम का पेड़ किसका? बीरबल का फैसला / Whose Mango Tree? / Akbar Birbal Story |
+| 2026-11-14T03:00:00+00:00 | mulla-ten-donkeys | Mulla Nasruddin | https://youtube.com/shorts/JQ3nFh-Xr8M | मुल्ला का एक गधा कहाँ गायब हुआ? / The Missing Tenth Donkey / Mulla Nasruddin Story |
+| 2026-11-14T07:30:00+00:00 | panchatantra-jackal-drum | Panchatantra | https://youtube.com/shorts/yTVTb-cYrbk | सियार ने जंगल का राक्षस कैसे ढूँढा? / The Jackal and the Drum / Panchatantra Story |
+| 2026-11-14T14:00:00+00:00 | jataka-ass-lion-skin | Jataka | https://youtube.com/shorts/v3XsM2EI1Kc | खेत में शेर आया, या कोई और? / The Donkey in the Lion's Skin / Jataka Story |
