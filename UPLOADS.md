@@ -75,3 +75,6 @@ Updated automatically by the upload workflow.
 | 2026-11-15T03:00:00+00:00 | birbal-bangles | Akbar-Birbal | https://youtube.com/shorts/mxSV3YKDTZo | बीरबल ने बादशाह को उनके ही सवाल में कैसे फँसाया? / Counting Bangles / Akbar Birbal Story |
 | 2026-11-15T07:30:00+00:00 | panchatantra-four-friends | Panchatantra | https://youtube.com/shorts/375j0nH4f8o | जाल में फँसे कछुए को दोस्तों ने कैसे बचाया? / The Four Friends and the Hunter / Panchatantra Story |
 | 2026-11-15T14:00:00+00:00 | mulla-lost-donkey | Mulla Nasruddin | https://youtube.com/shorts/_94y0qML50A | मुल्ला नसरुद्दीन गधा खोकर भी खुश क्यों थे? / The Lost Donkey / Mulla Nasruddin Story |
+| 2026-11-16T03:00:00+00:00 | tenali-three-dolls | Tenali Rama | https://youtube.com/shorts/ciQwhCc9jbQ | तेनालीराम ने असली कीमती गुड़िया कैसे पहचानी? / The Three Dolls / Tenali Rama Story |
+| 2026-11-16T07:30:00+00:00 | birbal-heaven-barber | Akbar-Birbal | https://youtube.com/shorts/6Y67PY5vY7k | नाई ने बीरबल को स्वर्ग क्यों भेजा? / The Trip to Heaven / Akbar Birbal Story |
+| 2026-11-16T14:00:00+00:00 | panchatantra-mouse-maiden | Panchatantra | https://youtube.com/shorts/rga5H4smPOU | चुहिया ने सबसे ताकतवर दूल्हा किसे चुना? / The Mouse Maiden / Panchatantra Story |
