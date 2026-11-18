@@ -81,3 +81,6 @@ Updated automatically by the upload workflow.
 | 2026-11-17T03:00:00+00:00 | panchatantra-three-fish | Panchatantra | https://youtube.com/shorts/e_hMkg8YUe8 | तीन मछलियों में से कौन बची? / The Three Fish / Panchatantra Story |
 | 2026-11-17T07:30:00+00:00 | mulla-flour-line | Mulla Nasruddin | https://youtube.com/shorts/iY7l9AWGrHk | मुल्ला ने रस्सी पर आटा क्यों सुखाया? / Flour on the Clothesline / Mulla Nasruddin Story |
 | 2026-11-17T14:00:00+00:00 | jataka-hare-moon | Jataka | https://youtube.com/shorts/FpVdaL7AHVE | चाँद पर खरगोश कैसे पहुँचा? / The Hare in the Moon / Jataka Tale |
+| 2026-11-19T03:00:00+00:00 | panchatantra-sparrow-elephant | Panchatantra | https://youtube.com/shorts/9e9AJEbPoFI | नन्ही चिड़िया ने हाथी को कैसे हराया? / The Sparrow and the Elephant / Panchatantra Story |
+| 2026-11-19T07:30:00+00:00 | birbal-count-blind | Akbar-Birbal | https://youtube.com/shorts/NZCRraYaD50 | बादशाह का नाम अंधों की सूची में कैसे आया? / Birbal's List of the Blind / Akbar Birbal Story |
+| 2026-11-19T14:00:00+00:00 | mulla-backwards-donkey | Mulla Nasruddin | https://youtube.com/shorts/LhN97tZSuDw | मुल्ला नसरुद्दीन गधे पर उल्टे क्यों बैठे? / Riding the Donkey Backwards / Mulla Nasruddin Story |
