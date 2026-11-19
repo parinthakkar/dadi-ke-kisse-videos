@@ -84,3 +84,6 @@ Updated automatically by the upload workflow.
 | 2026-11-19T03:00:00+00:00 | panchatantra-sparrow-elephant | Panchatantra | https://youtube.com/shorts/9e9AJEbPoFI | नन्ही चिड़िया ने हाथी को कैसे हराया? / The Sparrow and the Elephant / Panchatantra Story |
 | 2026-11-19T07:30:00+00:00 | birbal-count-blind | Akbar-Birbal | https://youtube.com/shorts/NZCRraYaD50 | बादशाह का नाम अंधों की सूची में कैसे आया? / Birbal's List of the Blind / Akbar Birbal Story |
 | 2026-11-19T14:00:00+00:00 | mulla-backwards-donkey | Mulla Nasruddin | https://youtube.com/shorts/LhN97tZSuDw | मुल्ला नसरुद्दीन गधे पर उल्टे क्यों बैठे? / Riding the Donkey Backwards / Mulla Nasruddin Story |
+| 2026-11-20T03:00:00+00:00 | panchatantra-two-headed-bird | Panchatantra | https://youtube.com/shorts/4JeOX7pRIvc | दो सिर वाले पक्षी ने ज़हर क्यों खाया? / The Bird With Two Heads / Panchatantra Story |
+| 2026-11-20T07:30:00+00:00 | tenali-great-pundit | Tenali Rama | https://youtube.com/shorts/EQ7cJ2GAzrA | तेनालीराम ने घमंडी पंडित को कैसे भगाया? / The Book That Didn't Exist / Tenali Rama Story |
+| 2026-11-20T14:00:00+00:00 | jataka-banyan-deer | Jataka | https://youtube.com/shorts/Xl2dIGh8qNY | हिरणों का राजा खुद मौत के पास क्यों गया? / The Banyan Deer / Jataka Tale |
