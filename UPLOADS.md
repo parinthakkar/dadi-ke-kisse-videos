@@ -87,3 +87,6 @@ Updated automatically by the upload workflow.
 | 2026-11-20T03:00:00+00:00 | panchatantra-two-headed-bird | Panchatantra | https://youtube.com/shorts/4JeOX7pRIvc | दो सिर वाले पक्षी ने ज़हर क्यों खाया? / The Bird With Two Heads / Panchatantra Story |
 | 2026-11-20T07:30:00+00:00 | tenali-great-pundit | Tenali Rama | https://youtube.com/shorts/EQ7cJ2GAzrA | तेनालीराम ने घमंडी पंडित को कैसे भगाया? / The Book That Didn't Exist / Tenali Rama Story |
 | 2026-11-20T14:00:00+00:00 | jataka-banyan-deer | Jataka | https://youtube.com/shorts/Xl2dIGh8qNY | हिरणों का राजा खुद मौत के पास क्यों गया? / The Banyan Deer / Jataka Tale |
+| 2026-11-21T03:00:00+00:00 | mulla-thief-moving | Mulla Nasruddin | https://youtube.com/shorts/At_-B0fRLOU | मुल्ला ने चोर को बिना लड़े कैसे पकड़ा? / The Thief and the Bedroll / Mulla Nasruddin Story |
+| 2026-11-21T07:30:00+00:00 | jataka-brave-parrot | Jataka | https://youtube.com/shorts/3W83zs-Y5iE | नन्हे तोते ने जंगल की आग कैसे बुझाई? / The Brave Little Parrot / Jataka Tale |
+| 2026-11-21T14:00:00+00:00 | birbal-teeth-dream | Akbar-Birbal | https://youtube.com/shorts/Gok5HnVRPk4 | बीरबल ने बादशाह का बुरा सपना शुभ कैसे बनाया? / Akbar's Dream of Teeth / Akbar Birbal Story |
