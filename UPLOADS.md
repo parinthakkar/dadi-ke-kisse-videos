@@ -90,3 +90,6 @@ Updated automatically by the upload workflow.
 | 2026-11-21T03:00:00+00:00 | mulla-thief-moving | Mulla Nasruddin | https://youtube.com/shorts/At_-B0fRLOU | मुल्ला ने चोर को बिना लड़े कैसे पकड़ा? / The Thief and the Bedroll / Mulla Nasruddin Story |
 | 2026-11-21T07:30:00+00:00 | jataka-brave-parrot | Jataka | https://youtube.com/shorts/3W83zs-Y5iE | नन्हे तोते ने जंगल की आग कैसे बुझाई? / The Brave Little Parrot / Jataka Tale |
 | 2026-11-21T14:00:00+00:00 | birbal-teeth-dream | Akbar-Birbal | https://youtube.com/shorts/Gok5HnVRPk4 | बीरबल ने बादशाह का बुरा सपना शुभ कैसे बनाया? / Akbar's Dream of Teeth / Akbar Birbal Story |
+| 2026-11-22T03:00:00+00:00 | panchatantra-cat-judge | Panchatantra | https://youtube.com/shorts/Ce7XDT6EMyY | बिल्ली ने तीतर और खरगोश का झगड़ा कैसे सुलझाया? / The Cat Judge / Panchatantra Story |
+| 2026-11-22T07:30:00+00:00 | mulla-walnut-pumpkin | Mulla Nasruddin | https://youtube.com/shorts/jQgJbXBmMC0 | मुल्ला नसरुद्दीन के सिर पर क्या गिरा? / The Walnut and the Pumpkin / Mulla Nasruddin Story |
+| 2026-11-22T14:00:00+00:00 | jataka-ruru-deer | Jataka | https://youtube.com/shorts/eZ1ys6dUiRk | सुनहरे हिरण को किसने धोखा दिया? / The Golden Deer's Promise / Jataka Tale |
