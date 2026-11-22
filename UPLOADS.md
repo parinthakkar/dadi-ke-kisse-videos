@@ -93,3 +93,6 @@ Updated automatically by the upload workflow.
 | 2026-11-22T03:00:00+00:00 | panchatantra-cat-judge | Panchatantra | https://youtube.com/shorts/Ce7XDT6EMyY | बिल्ली ने तीतर और खरगोश का झगड़ा कैसे सुलझाया? / The Cat Judge / Panchatantra Story |
 | 2026-11-22T07:30:00+00:00 | mulla-walnut-pumpkin | Mulla Nasruddin | https://youtube.com/shorts/jQgJbXBmMC0 | मुल्ला नसरुद्दीन के सिर पर क्या गिरा? / The Walnut and the Pumpkin / Mulla Nasruddin Story |
 | 2026-11-22T14:00:00+00:00 | jataka-ruru-deer | Jataka | https://youtube.com/shorts/eZ1ys6dUiRk | सुनहरे हिरण को किसने धोखा दिया? / The Golden Deer's Promise / Jataka Tale |
+| 2026-11-23T03:00:00+00:00 | birbal-new-colour-horse | Akbar-Birbal | https://youtube.com/shorts/rWXzhQm_NJc | अकबर ने माँगा हरा घोड़ा, बीरबल ने क्या किया? / The Green Horse / Akbar Birbal Story |
+| 2026-11-23T07:30:00+00:00 | mulla-boat-scholar | Mulla Nasruddin | https://youtube.com/shorts/3_oG140dy1U | मुल्ला नसरुद्दीन ने घमंडी विद्वान को कैसे चुप कराया? / Mulla Nasruddin Story |
+| 2026-11-23T14:00:00+00:00 | panchatantra-monkeys-bird-nest | Panchatantra | https://youtube.com/shorts/DUr8DnY7GKg | बया चिड़िया की एक सलाह, और उजड़ गया घर! / The Bird and the Monkeys / Panchatantra Story |
