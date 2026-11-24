@@ -99,3 +99,6 @@ Updated automatically by the upload workflow.
 | 2026-11-24T03:00:00+00:00 | gopal-star-counter | Gopal Bhar | https://youtube.com/shorts/8Y0jHHip--w | गोपाल ने आसमान के तारे कैसे गिने? / Counting the Stars / Gopal Bhar Story |
 | 2026-11-24T07:30:00+00:00 | jataka-woodpecker-lion | Jataka | https://youtube.com/shorts/CCXtviW1UwU | शेर ने कठफोड़वे को क्या इनाम दिया? / The Lion's Reward / Jataka Tale |
 | 2026-11-24T14:00:00+00:00 | mulla-small-coin | Mulla Nasruddin | https://youtube.com/shorts/bjAHGEdEP9g | मुल्ला हमेशा छोटा सिक्का क्यों उठाते थे? / The Smaller Coin / Mulla Nasruddin Story |
+| 2026-11-25T03:00:00+00:00 | birbal-here-there | Akbar-Birbal | https://youtube.com/shorts/V1TqfLEvoFg | बीरबल ने सोने के सिक्के कहाँ खर्च किए? / Here, There, Nowhere / Akbar Birbal Story |
+| 2026-11-25T07:30:00+00:00 | panchatantra-elephants-moon-lake | Panchatantra | https://youtube.com/shorts/89tGdWrr6JA | छोटे खरगोश ने हाथियों को कैसे भगाया? / The Hare and the Moon Lake / Panchatantra Story |
+| 2026-11-25T14:00:00+00:00 | jataka-hollow-reeds | Jataka | https://youtube.com/shorts/wC9yJA4dKHA | बंदरों ने राक्षस की झील से पानी कैसे पिया? / The Hollow Reeds / Jataka Tale |
