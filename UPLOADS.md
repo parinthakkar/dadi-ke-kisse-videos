@@ -102,3 +102,6 @@ Updated automatically by the upload workflow.
 | 2026-11-25T03:00:00+00:00 | birbal-here-there | Akbar-Birbal | https://youtube.com/shorts/V1TqfLEvoFg | बीरबल ने सोने के सिक्के कहाँ खर्च किए? / Here, There, Nowhere / Akbar Birbal Story |
 | 2026-11-25T07:30:00+00:00 | panchatantra-elephants-moon-lake | Panchatantra | https://youtube.com/shorts/89tGdWrr6JA | छोटे खरगोश ने हाथियों को कैसे भगाया? / The Hare and the Moon Lake / Panchatantra Story |
 | 2026-11-25T14:00:00+00:00 | jataka-hollow-reeds | Jataka | https://youtube.com/shorts/wC9yJA4dKHA | बंदरों ने राक्षस की झील से पानी कैसे पिया? / The Hollow Reeds / Jataka Tale |
+| 2026-11-26T03:00:00+00:00 | panchatantra-crane-mongoose | Panchatantra | https://youtube.com/shorts/5M8_RYAVEpk | बगुले की तरकीब, उसी पर भारी कैसे पड़ी? / The Cranes and the Mongoose / Panchatantra Story |
+| 2026-11-26T07:30:00+00:00 | birbal-real-mother | Akbar-Birbal | https://youtube.com/shorts/AS1cyFblM5g | बीरबल ने असली माँ को कैसे पहचाना? / Who Is the Real Mother? / Akbar Birbal Story |
+| 2026-11-26T14:00:00+00:00 | mulla-roof-beggar | Mulla Nasruddin | https://youtube.com/shorts/Je4cixrBt-8 | मुल्ला नसरुद्दीन ने भिखारी को छत पर क्यों बुलाया? / Mulla Nasruddin Story |
