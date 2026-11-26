@@ -105,3 +105,6 @@ Updated automatically by the upload workflow.
 | 2026-11-26T03:00:00+00:00 | panchatantra-crane-mongoose | Panchatantra | https://youtube.com/shorts/5M8_RYAVEpk | बगुले की तरकीब, उसी पर भारी कैसे पड़ी? / The Cranes and the Mongoose / Panchatantra Story |
 | 2026-11-26T07:30:00+00:00 | birbal-real-mother | Akbar-Birbal | https://youtube.com/shorts/AS1cyFblM5g | बीरबल ने असली माँ को कैसे पहचाना? / Who Is the Real Mother? / Akbar Birbal Story |
 | 2026-11-26T14:00:00+00:00 | mulla-roof-beggar | Mulla Nasruddin | https://youtube.com/shorts/Je4cixrBt-8 | मुल्ला नसरुद्दीन ने भिखारी को छत पर क्यों बुलाया? / Mulla Nasruddin Story |
+| 2026-11-27T03:00:00+00:00 | birbal-hairless-palm | Akbar-Birbal | https://youtube.com/shorts/CcTLSYYj_Gw | बादशाह की हथेली पर बाल क्यों नहीं? / Why No Hair on the Emperor's Palm? / Akbar Birbal Story |
+| 2026-11-27T07:30:00+00:00 | panchatantra-snake-frogs | Panchatantra | https://youtube.com/shorts/fyNF5mthP_Y | मेंढकों का राजा साँप की सवारी क्यों करता था? / The Frogs Who Rode a Snake / Panchatantra Story |
+| 2026-11-27T14:00:00+00:00 | tenali-dog-tail | Tenali Rama | https://youtube.com/shorts/R_qoMDRvV1o | तेनालीराम ने कुत्ते की पूँछ सीधी कैसे की? / Straightening the Dog's Tail / Tenali Rama Story |
