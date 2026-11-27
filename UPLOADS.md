@@ -108,3 +108,6 @@ Updated automatically by the upload workflow.
 | 2026-11-27T03:00:00+00:00 | birbal-hairless-palm | Akbar-Birbal | https://youtube.com/shorts/CcTLSYYj_Gw | बादशाह की हथेली पर बाल क्यों नहीं? / Why No Hair on the Emperor's Palm? / Akbar Birbal Story |
 | 2026-11-27T07:30:00+00:00 | panchatantra-snake-frogs | Panchatantra | https://youtube.com/shorts/fyNF5mthP_Y | मेंढकों का राजा साँप की सवारी क्यों करता था? / The Frogs Who Rode a Snake / Panchatantra Story |
 | 2026-11-27T14:00:00+00:00 | tenali-dog-tail | Tenali Rama | https://youtube.com/shorts/R_qoMDRvV1o | तेनालीराम ने कुत्ते की पूँछ सीधी कैसे की? / Straightening the Dog's Tail / Tenali Rama Story |
+| 2026-11-28T03:00:00+00:00 | jataka-who-is-eldest | Jataka | https://youtube.com/shorts/9d-iDv70kEI | तीनों में सबसे बड़ा कौन निकला? / Who Is the Eldest? / Jataka Tale |
+| 2026-11-28T07:30:00+00:00 | mulla-falcon-pigeon | Mulla Nasruddin | https://youtube.com/shorts/M9GQ2KdVyKQ | मुल्ला ने बाज़ को कबूतर क्यों बना दिया? / The Falcon and the Scissors / Mulla Nasruddin Story |
+| 2026-11-28T14:00:00+00:00 | birbal-best-weapon | Akbar-Birbal | https://youtube.com/shorts/BmCBUKpGbiE | बीरबल ने पागल हाथी को कैसे भगाया? / The Best Weapon / Akbar Birbal Story |
